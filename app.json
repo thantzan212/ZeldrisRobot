@@ -1,7 +1,7 @@
 {
-  "name": "ZeldrisRobot",
+  "name": "BotNyiLay",
   "description": "Telegram group management bot.",
-  "logo": "https://telegra.ph/file/016628a91c2d0ed99c3cf.jpg",
+  "logo": "https://telegra.ph/file/c229568ea7a9958361e2e.jpg",
   "keywords": [
     "telegram",
     "anime",
@@ -9,7 +9,7 @@
     "manager",
     "Zeldris"
   ],
-  "repository": "https://github.com/IDN-C-X/ZeldrisRobot.git",
+  "repository": "https://github.com/thantzan212/nyilaybot.git",
   "website": "https://idn-c-x.github.io",
   "success_url": "t.me/IDNCoder",
   "addons": [
@@ -67,16 +67,16 @@
     },
     "OWNER_USERNAME": {
       "description": "Your username without the @",
-      "value": "Anomaliii"
+      "value": ""
     },
     "SUPPORT_CHAT": {
       "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to zeldris support than consider you made an enemy.",
-      "required": true,
-      "value": "IDNCoderX"
+      "required": false,
+      "value": ""
     },
     "MESSAGE_DUMP": {
       "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
-      "required": true,
+      "required": false,
       "value": "-1001599383497"
     },
     "DEV_USERS": {
@@ -144,7 +144,7 @@
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
       "required": false,
-      "value": "https://t.me/IDNCoderX"
+      "value": "https://t.me/thantzin212"
     },
     "DEL_CMDS": {
       "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
