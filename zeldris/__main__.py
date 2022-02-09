@@ -91,17 +91,17 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-ZELDRIS_IMG = "https://telegra.ph/file/1fa00785f30375c0c1b50.jpg"
+ZELDRIS_IMG = "https://telegra.ph/file/c229568ea7a9958361e2e.jpg"
 
 PM_START_TEXT = """
 Hey there! my name is *{}*. 
-A modular group management bot with useful features. [ㅤ](https://telegra.ph/file/fed9ba09e9add9b197c21.png)
+A modular group management bot with useful features. [ㅤ](https://telegra.ph/file/c229568ea7a9958361e2e.png)
 
 ◑ *Uptime:* `{}`
 ◑ `{}` *Users, across* `{}` *chats.*
 
 Any issues or need help related to me?
-Join our official group [IDNCoderX](https://t.me/IDNCoderX).
+Join our official group [N4userGp](https://t.me/+-Gsapl_ciLYwMGNl).
 Click help button to know my commands!
 """
 
@@ -112,14 +112,14 @@ buttons = [
             callback_data="help_back",
         ),
         InlineKeyboardButton(
-            text="Updates 📢",
-            url="https://t.me/IDNCoder",
+            text="Donate",
+            url="https://t.me/thantzin212",
         ),
     ],
     [
         InlineKeyboardButton(
-            text="Add Zeldris to Your Group 👥",
-            url="t.me/ZeldrisRobot?startgroup=true",
+            text="Add botညီလေး to Your Group 👥",
+            url="t.me/n4nd4_hippy_bot?startgroup=true",
         ),
     ],
 ]
@@ -265,11 +265,11 @@ def start(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="☎️ Support",
-                            url="https://t.me/IDNCoderX",
+                            url="https://t.me/+-Gsapl_ciLYwMGNl",
                         ),
                         InlineKeyboardButton(
                             text="Updates 📡",
-                            url="https://t.me/IDNCoder",
+                            url="https://t.me/+-Gsapl_ciLYwMGNl",
                         ),
                     ]
                 ]
